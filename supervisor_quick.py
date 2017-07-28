@@ -1,7 +1,7 @@
 import fnmatch
 import threading
 import time
-import xmlrpclib
+from six.moves import xmlrpc_client as xmlrpclib
 
 from supervisor.supervisorctl import ControllerPluginBase
 
